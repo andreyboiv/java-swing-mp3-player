@@ -39,6 +39,7 @@ public class MP3PlayList implements IPlayList {
         this.song = new Song(jFrame);
 
         jFrame.getsPlayList().setModel(mp3ListModel);
+        jFrame.setLocationRelativeTo(null);
     }
 
     @Override
