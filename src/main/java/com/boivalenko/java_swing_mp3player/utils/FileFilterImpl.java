@@ -1,17 +1,15 @@
 package com.boivalenko.java_swing_mp3player.utils;
 
+import javax.swing.filechooser.FileFilter;
 import java.io.File;
 
-import javax.swing.filechooser.FileFilter;
-
 //Filter for choose files (only mp3 files) for FileChooser
-public class MP3FileFilter extends FileFilter {
+public class FileFilterImpl extends FileFilter {
 
     private String fileExtension;
     private String fileDescription;
 
-
-    public MP3FileFilter(String fileExtension, String fileDescription) {
+    public FileFilterImpl(String fileExtension, String fileDescription) {
         this.fileExtension = fileExtension;
         this.fileDescription = fileDescription;
     }

@@ -1,16 +1,10 @@
 package com.boivalenko.java_swing_mp3player.utils;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 import javax.swing.*;
 import javax.swing.filechooser.FileFilter;
+import java.io.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 public class FileUtils {
@@ -52,8 +46,7 @@ public class FileUtils {
             oos.flush();
             oos.close();
             fos.close();
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, e);
         }
     }
@@ -66,8 +59,7 @@ public class FileUtils {
             Object ts = (Object) oin.readObject();
             fis.close();
             return ts;
-        }
-        catch (ClassNotFoundException | IOException e) {
+        } catch (ClassNotFoundException | IOException e) {
             Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, e);
         }
         return null;

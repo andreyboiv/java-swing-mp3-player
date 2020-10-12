@@ -1,9 +1,9 @@
 package com.boivalenko.java_swing_mp3player.objects;
 
+import com.boivalenko.java_swing_mp3player.utils.FileUtils;
+
 import java.io.Serializable;
 import java.util.Objects;
-
-import com.boivalenko.java_swing_mp3player.utils.FileUtils;
 
 public class MP3 implements Serializable {
 
