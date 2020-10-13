@@ -39,29 +39,21 @@ public class FileUtils {
 
     //save object
     public static void serialize(Object obj, String filename) {
-        try {
-            FileOutputStream fos = new FileOutputStream(filename);
-            ObjectOutputStream oos = new ObjectOutputStream(fos);
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(filename))) {
             oos.writeObject(obj);
-            oos.flush();
-            oos.close();
-            fos.close();
-        } catch (IOException e) {
+        } catch (Exception e) {
             Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, e);
         }
     }
 
     //open object
     public static Object deserialize(String filename) {
-        try {
-            FileInputStream fis = new FileInputStream(filename);
-            ObjectInputStream oin = new ObjectInputStream(fis);
-            Object ts = (Object) oin.readObject();
-            fis.close();
-            return ts;
+        Object retVal = null;
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(filename))) {
+            retVal = ois.readObject();
         } catch (ClassNotFoundException | IOException e) {
             Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, e);
         }
-        return null;
+        return retVal;
     }
 }
