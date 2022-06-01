@@ -1,7 +1,4 @@
-# java_swing_mp3player
-java swing mp3player
-
-Es geht hier um einen MP3 Player. 
+# Java Swing MP3 Player
 
 Ziele des Projektes: 
 1. Um die Beherrschung von SWING Technologie zu zeigen
