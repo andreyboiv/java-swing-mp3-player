@@ -7,6 +7,6 @@ Ziele des Projektes:
 
 
 Die Präsentation zum Projekt ist auf 3 Videos aufgeteilt:
-1. Erste Video Präsentation -> eine Übersicht des Programmes (UI und Quellcode) -> https://www.boivalenko.com/img/java_se/projekt_2/mp3player_1.mp4 
-2. Zweite Video Präsentation -> eine Refactoring des Quellcodes in Intellij IDEA -> https://www.boivalenko.com/img/java_se/projekt_2/mp3player_2.mp4 
-3. Dritte Video Präsentation -> Fixen eines Buges -> https://www.boivalenko.com/img/java_se/projekt_2/mp3player_3.mp4 
+1. Erste Video Präsentation -> eine Übersicht des Programmes (UI und Quellcode) -> https://www.boivalenko.de/img/java_se/projekt_2/mp3player_1.mp4 
+2. Zweite Video Präsentation -> eine Refactoring des Quellcodes in Intellij IDEA -> https://www.boivalenko.de/img/java_se/projekt_2/mp3player_2.mp4 
+3. Dritte Video Präsentation -> Fixen eines Buges -> https://www.boivalenko.de/img/java_se/projekt_2/mp3player_3.mp4 
