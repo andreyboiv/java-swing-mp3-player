@@ -1,8 +1,8 @@
 ## Java Swing MP3 Player
 
-Ziele des Projektes: 
-1. Um die Beherrschung von SWING Technologie zu zeigen
-2. Um zu zeigen, dass ich OOP Denkweise beherrsche
-3. Um zu präsentieren, dass ich Refactoring des Codes machen kann und zusätzliche extra Bibliotheken im Projekt verwenden kann.
+Goals of the project:
+1. To show that I can Java Swing
+2. To show that I have mastered the OOP way of thinking
+3. To present that I can do refactoring of the code and use additional extra libraries in the project.
 
-Die Präsentation zum Projekt ist auf 3 Videos aufgeteilt. Man kann das gerne da anschauen: https://boivalenko.de/#java_se : MP3 Player
+The presentation of the project is divided into 3 videos. You can have a look at it here: https://boivalenko.de/#java_se : MP3 Player
